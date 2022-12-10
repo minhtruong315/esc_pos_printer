@@ -8,8 +8,10 @@
 
 import 'dart:io';
 import 'dart:typed_data' show Uint8List;
-import 'package:esc_pos_utils/esc_pos_utils.dart';
+
+import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
 import 'package:image/image.dart';
+
 import './enums.dart';
 
 /// Network Printer

@@ -1,14 +1,15 @@
 import 'dart:io';
 import 'dart:typed_data';
-import 'package:intl/intl.dart';
-import 'package:qr_flutter/qr_flutter.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:flutter/material.dart' hide Image;
+
 import 'package:esc_pos_printer/esc_pos_printer.dart';
+import 'package:flutter/material.dart' hide Image;
 import 'package:flutter/services.dart';
-import 'package:ping_discover_network/ping_discover_network.dart';
-import 'package:esc_pos_utils/esc_pos_utils.dart';
+import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
 import 'package:image/image.dart';
+import 'package:intl/intl.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:ping_discover_network/ping_discover_network.dart';
+import 'package:qr_flutter/qr_flutter.dart';
 import 'package:wifi/wifi.dart';
 
 void main() => runApp(MyApp());
